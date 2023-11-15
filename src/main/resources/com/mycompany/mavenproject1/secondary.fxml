@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
-
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane  id="AnchorPane" fx:id="validscene" prefHeight="800" prefWidth="1400" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject1.SecondaryController">
+<AnchorPane id="AnchorPane" fx:id="validscene" prefHeight="800" prefWidth="1400" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject1.SecondaryController">
   <children>
-      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="600.0" layoutY="227.0">
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="600.0" layoutY="274.0">
          <image>
             <Image url="@../../../img/validate.png" />
          </image>
       </ImageView>
-      <Label layoutX="427.0" layoutY="468.0" prefHeight="255.0" prefWidth="710.0" text="Merci de votre vote" textAlignment="CENTER">
+      <Label layoutX="345.0" layoutY="474.0" prefHeight="255.0" prefWidth="710.0" text="  Merci et Joyeuses Fêtes" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="62.0" />
          </font>
